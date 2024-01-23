@@ -544,45 +544,47 @@
             Leave your contacts and we will call you back
           </p>
           <form class="modal-form">
-            <label class="input-label" for="username">
-              Name
-              <div class="modal-input-wrap">
-                <input class="input-text" name="username" type="text" />
-                <svg class="icon-input" width="12" height="12">
-                  <use href="./images/icons.svg#icon-name" />
-                </svg>
-              </div>
-            </label>
+            <label class="input-label" for="username">Name</label>
 
-            <label class="input-label" for="phone">
-              Phone
-              <div class="modal-input-wrap">
-                <input class="input-text" name="phone" type="text" />
-                <svg class="icon-input" width="12" height="12">
-                  <use href="./images/icons.svg#icon-phone" />
-                </svg>
-              </div>
-            </label>
+            <div class="modal-input-wrap">
+              <input
+                class="input-text"
+                name="username"
+                type="text"
+                id="username"
+              />
+              <svg class="icon-input" width="12" height="12">
+                <use href="./images/icons.svg#icon-name" />
+              </svg>
+            </div>
 
-            <label class="input-label" for="email">
-              Email
-              <div class="modal-input-wrap">
-                <input class="input-text" name="email" type="text" />
-                <svg class="icon-input" width="12" height="12">
-                  <use href="./images/icons.svg#icon-email" />
-                </svg>
-              </div>
-            </label>
+            <label class="input-label" for="phone">Phone </label>
 
-            <label class="input-label" for="comment">
-              Comment
-              <textarea
-                placeholder="Text input"
-                class="input-textarea"
-                name="comment"
-              >
-              </textarea>
-            </label>
+            <div class="modal-input-wrap">
+              <input class="input-text" name="phone" type="text" id="phone" />
+              <svg class="icon-input" width="12" height="12">
+                <use href="./images/icons.svg#icon-phone" />
+              </svg>
+            </div>
+
+            <label class="input-label" for="email">Email</label>
+
+            <div class="modal-input-wrap">
+              <input class="input-text" name="email" type="text" id="email" />
+              <svg class="icon-input" width="12" height="12">
+                <use href="./images/icons.svg#icon-email" />
+              </svg>
+            </div>
+
+            <label class="input-label" for="comment">Comment </label>
+
+            <textarea
+              placeholder="Text input"
+              class="input-textarea"
+              name="comment"
+              id="comment"
+            >
+            </textarea>
 
             <label class="input-label" for="checkbox-terms">
               <input
@@ -590,6 +592,7 @@
                 class="input-checkbox"
                 name="checkbox-terms"
                 required
+                id="checkbox-terms"
               />
               I accept the terms and conditions of the
               <span class="terms"><a href="">Privacy Policy</a></span>
