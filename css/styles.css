@@ -595,7 +595,7 @@ img {
 .sub-form {
   display: flex;
   margin-left: 80px;
-  margin-right: 24px;
+  gap: 24px;
 }
 
 .sub-label {
