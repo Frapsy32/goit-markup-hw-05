@@ -596,16 +596,14 @@ img {
   display: flex;
   margin-left: 80px;
   margin-right: 24px;
-  flex-direction: column;
 }
 
 .sub-label {
   color: #fff;
-
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .sub-input {
@@ -677,7 +675,6 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
-  visibility: hidden;
 }
 
 .modal {
