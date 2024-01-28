@@ -641,9 +641,9 @@ img {
   align-items: center;
   border-radius: 4px;
   background: #4d5ae5;
-  gap: 16px;
+
   color: #fff;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   font-size: 16px;
   font-weight: 500;
@@ -665,9 +665,14 @@ img {
 
 .sub-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* !------------------ MODAL --------------------! */
+
+.backdrop .is-open {
+  visibility: visible;
+}
 
 .backdrop {
   width: 100%;
@@ -675,6 +680,7 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
+  visibility: hidden;
 }
 
 .modal {
